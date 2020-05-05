@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  }
+  
+  
+a {
+  text-decoration: none;
+}
+
+  .header {
+    height: 11vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    align-items: center;
+  
+  }
+
+  .Spacex {
+    font-size: 43px;
+    color: white;
+    margin-right: 40px;
+    margin-left: 120px;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 325px;
+    }
+
+  .image {
+    height: 650px;
+    background-image: url('https://www.spacex.com/sites/spacex/files/star6_streak.jpg');
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .nav2 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 200px;
+  }
+
+  .transbox {
+    background-color: black;
+    height: 160px;
+    width: 100%;
+    opacity: .7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  
+  }
+
+  .starlink-mission {
+    font-size: 30px;
+    margin-top: 40px;
+
+  }
+  
+  button {
+    height: 30px;
+    width: 150px;
+    font-size: 12px;
+    margin-top: 40px;
+    
+  }
+
+  .reverse-trans {
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+  }
